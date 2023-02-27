@@ -1,0 +1,1 @@
+<?phpclass WCV_Activator {	public static function activate() {    }}

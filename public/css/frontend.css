@@ -1,0 +1,214 @@
+.sb_attr_select_main{
+    padding: 15px 0;
+    border-bottom: 1px solid;
+}
+.sb_attr_select p{
+    font-size: 12px;
+    color: #818181;
+    font-family: "Montserrat", Open Sans;
+}
+.sb_arrow{
+    margin-bottom: 0;
+    border-right: 2px solid #707070;
+    border-top: 2px solid #707070;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    right: 15px;
+    transform: rotate(45deg);
+}
+.sb_attr_select{
+    width: 100%;
+    text-align: left;
+    background: inherit;
+    cursor: pointer;
+}
+.sb_attr_select img{
+    margin-right: 10px;
+}
+.title--large {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.padding--small {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sb-sticky {
+    position: sticky;
+    top: 0;
+}
+.margin--large-bottom {
+    margin-bottom: 20px;
+}
+.sb_variation_details{
+    position: fixed;
+    top: 0;
+    right: -15px;
+    width: 0;
+    height: 100%;
+    background: white;
+    padding: 0 30px;
+    z-index: 999;
+    overflow: auto;
+}
+.sb-flex{
+    display: flex;
+    align-items: center;
+}
+.sb_popup_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sb_popup_header h2{
+    margin-bottom: 0;
+}
+.sb_variation_details_main{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: #ffffffbf;
+    z-index: 999;
+}
+.sb_select_image{
+    width: 40px;
+    height: 40px;
+    background: #f1eded;
+    margin-right: 5px;
+    background-size: cover !important;
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+}
+.variation_details_a{
+    text-align: center;
+    border-radius: 30px;
+    margin: 5px 10px;
+    display: block;
+    width: auto !important;
+    cursor: pointer;
+}
+.variation_details{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.sb_attr_title{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sb-popin-close{
+    border: 0px;
+    background: inherit;
+}
+.variation_details_a img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    padding: 6px;
+    border-radius: 10px;
+}
+.variation_details_a.sb_active img{
+    border: 1px solid;
+}
+.sb_filters_main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sb_main_filter{
+    padding: 5px 10px;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sb_active_filter{
+    background: black;
+    color: white;
+}
+.variation_details_other{
+    border: 1px solid black;
+    padding: 7px 15px;
+}
+.variation_details_other p{
+    margin: 0px;
+}
+.variation_details_other.sb_active{
+    background: black;
+    color: white;
+}
+
+.sb_load .sb_loader ,
+.sb_load .sb_loader_parent {
+    display: block !important;
+}
+.sb_loader_parent{
+    display: none;
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 9999;
+    background: #ffffffa8;
+}
+.sb_load .margin--large-bottom{
+    opacity: 0.8;
+}
+.sb_loader {
+    display: none;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.sb_page_load{
+    width: 100%;
+    height: 100%;
+    background: #ffffffad;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.sb_first_selection{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+.sb_first_selection .sb_bg_img{
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    margin-left: 20px;
+}

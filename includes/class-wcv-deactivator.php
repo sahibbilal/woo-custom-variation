@@ -1,0 +1,1 @@
+<?phpclass WCV_Deactivator {	public static function deactivate() {	}}
